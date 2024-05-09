@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED8226B72BECAA6700CD6903 /* ContactsFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8226B62BECAA6700CD6903 /* ContactsFeatureTests.swift */; };
 		ED921F3B2B9CB4EB00051F78 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED921F3A2B9CB4EB00051F78 /* ContactsFeature.swift */; };
 		ED921F3C2B9CB4EB00051F78 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED921F3A2B9CB4EB00051F78 /* ContactsFeature.swift */; };
 		ED921F3D2B9CB4EB00051F78 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED921F3A2B9CB4EB00051F78 /* ContactsFeature.swift */; };
@@ -63,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED8226B62BECAA6700CD6903 /* ContactsFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeatureTests.swift; sourceTree = "<group>"; };
 		ED921F3A2B9CB4EB00051F78 /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
 		ED921F3E2B9DB00C00051F78 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		ED921F442B9DBFD000051F78 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			children = (
 				EDD542522B72C553002D94E4 /* TCA_PlaygroundTests.swift */,
 				ED921F612BA2EBD800051F78 /* CounterFeatureTests.swift */,
+				ED8226B62BECAA6700CD6903 /* ContactsFeatureTests.swift */,
 			);
 			path = "TCA PlaygroundTests";
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				EDD542702B72C7AE002D94E4 /* CounterFeature.swift in Sources */,
 				ED921F4A2B9DC34D00051F78 /* AddContactView.swift in Sources */,
 				EDDA3DF32BA3085D003C2D8E /* NumberFactClient.swift in Sources */,
+				ED8226B72BECAA6700CD6903 /* ContactsFeatureTests.swift in Sources */,
 				ED921F672BA2ECFE00051F78 /* Item.swift in Sources */,
 				ED921F3C2B9CB4EB00051F78 /* ContactsFeature.swift in Sources */,
 				ED921F652BA2ECFA00051F78 /* TCA_PlaygroundApp.swift in Sources */,

@@ -24,14 +24,14 @@ struct TCA_PlaygroundApp: App {
         }
     }()
 
-    static let store = Store(initialState: CounterFeature.State()) {
-      CounterFeature()
+    static let store = Store(initialState: ContactsFeature.State()) {
+        ContactsFeature()
             ._printChanges()
     }
     
     var body: some Scene {
         WindowGroup {
-            CounterView(store: TCA_PlaygroundApp.store)
+            ContactsView(store: TCA_PlaygroundApp.store)
         }
     }
 }
